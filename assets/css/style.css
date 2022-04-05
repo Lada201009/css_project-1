@@ -1,3 +1,26 @@
 .main-heading{
-  color:blueviolet;
+  color: purple;
+  background-color: #c7c7c7;
+  font-size: 28px;
+  font-family: 'Send Flowers', cursive;
+  text-align: center;
+  text-transform: lowercase;
+}
+.heading-art.format-text{
+  color:red;
+}
+.format-text{
+  text-align: right;
+  color:blue;
+}
+.heading-art{
+  color:yellow;
+  background-color: purple;
+}
+p{
+  font-size: 16px;
+  line-height: 1.25em;
+  background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
