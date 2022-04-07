@@ -1,32 +1,22 @@
-.img{
-  /* display: block; */
-  width: 150px;
-  height: 150px;
-  border: 5px solid red;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-  object-fit: cover;
-  object-position: top left;
-  /* margin-top: 20px; */
+html, body{
+  overflow-x: hidden;
 }
-body{
-  font-size: 0px;
-  text-align: center;
+.wrapper{
+  min-width: 200px;
+  /* width: 50vw; */
+  max-width: 400px;
+  min-height: 200px;
+  height: 50vw;
+  max-height: 700px;
+  border: 2px solid red;
+  padding: 20px;
 }
-.div{
-  display: inline-block;
-  width: 100px;
-  border: 5px solid green;
-  padding: 10px 30px;
-  margin: 0px;
-  font-size: initial;
+.inner{
+  box-sizing:border-box;
+  width: 50%;
+  height: 50%;
+  border: 2px solid green;
+  /* margin-top:20px; */
+  /* overflow: auto; */
+  overflow-y: scroll;
 }
-/* .span{
-  display: block;
-  width: 200px;
-  box-sizing: border-box;
-  border: 5px solid red;
-  padding: 10px 30px;
-  margin: 20px auto;
-} */
