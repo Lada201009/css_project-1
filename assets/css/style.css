@@ -1,15 +1,9 @@
-body{
-  margin:0;
-}
-.container{
-  height: 100vh;
-  padding-top: 40%;
-  box-sizing: border-box;
-  border:2px solid red;
-  background-color: chocolate;
-  background-image: url(./../images/sea.jpg);
-  background-repeat: no-repeat;
+div{
+  width: 200px;
+  height: 250px;
+  background-image: url(./../images/cat.jpeg);
   background-size: cover;
-  background-position: center;
-  text-align: center;
+}
+div, img{
+  border-radius: 20%;
 }
