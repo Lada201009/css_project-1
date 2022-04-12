@@ -1,6 +1,16 @@
-ul{
-  padding-left: 0px;
-  list-style-type: square;
-  list-style-position: inside;
-  list-style-image: url(./../icons/account-multiple.png);
+/* #container p{ //селектор потомков
+  color: blue;
 }
+#container>p{ //селектор родных детей
+  color: red;
+} */
+/* p+div{ //селектор соседей
+  color: red;
+}
+h1+div{
+  color: lime;
+} */
+
+/* p~div{ //селектор родственников
+  border: 3px double red;
+} */
