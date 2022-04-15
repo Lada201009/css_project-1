@@ -65,3 +65,26 @@ h1::before {
 h1::after {
   left: 100%;
 }
+
+.inner{
+  height: 50px;
+  width: 10%;
+  background-color: crimson;
+  transition-property: width;
+  transition-duration: 1s;
+}
+.wrapper:hover .inner{
+  width: 100%;
+}
+.linear{
+  transition-timing-function: linear;
+}
+.ease-in{
+  transition-timing-function: ease-in;
+}
+.ease-out{
+  transition-timing-function: ease-out;
+}
+.ease-in-out{
+  transition-timing-function: ease-in-out;
+}
