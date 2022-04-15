@@ -1,0 +1,15 @@
+p::first-letter{
+  color:red;
+  font-size: 3em;
+} 
+p::first-line{
+  background-color:aquamarine;
+}
+p::selection{
+  background-color:blueviolet;
+  color: yellow;
+}
+
+h1::first-letter{
+  text-decoration: underline;
+}
