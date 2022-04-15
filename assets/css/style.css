@@ -1,15 +1,24 @@
-p::first-letter{
-  color:red;
-  font-size: 3em;
-} 
-p::first-line{
-  background-color:aquamarine;
+body{
+  height: 300vh;
 }
-p::selection{
-  background-color:blueviolet;
-  color: yellow;
+h1{
+  width: 50vw;
+  margin: auto;
+  position: relative;
+  background-color: green;
+  text-align: center;
 }
-
-h1::first-letter{
-  text-decoration: underline;
+h1::before,
+h1::after{
+  content: url(./../icons/phone.svg);
+  display: inline-block;
+  width: 1em; 
+  position: absolute;
+  top: 0.1em;
+}
+h1::before{
+  right: 100%;
+}
+h1::after{
+  left: 100%;
 }
